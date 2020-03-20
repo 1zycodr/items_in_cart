@@ -29,18 +29,15 @@ $( document ).ready(function() {
     $.getJSON('items.json', function (items) {    
         for (let item in items) {
             console.log(items[item])
-            let item_div = document.createAttribute('h1')
-            let name= document.createAttribute('h1')
-            name.textContent = item
+            let item_div = document.createAttribute('div')
+
+            let name= document.createAttribute('div')
             
-            let discription = document.createAttribute('h1')
-            discription.textContent = items[item].discription
+            let discription = document.createAttribute('div')
     
-            let price = document.createAttribute('h1')
-            price = items[item].price
+            let price = document.createAttribute('div')
     
             let button = document.createElement('button')
-            button.value = 'add'
             
             item_div.appendChild(name)
             item_div.appendChild(discription)
