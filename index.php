@@ -7,7 +7,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
-    <div id="list"></div>
+    <?php $json = file_get_contents('items.json');?>
+    <div 
+    class='hidden'
+    data-json='<?= $json?>'
+    ></div>
     <script src="main.js"></script>
 </body>
 </html>
