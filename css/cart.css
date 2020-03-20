@@ -1,0 +1,12 @@
+#item_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_div {
+    text-align: center;
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+}

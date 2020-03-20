@@ -1,0 +1,12 @@
+#product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    text-align: center;
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+}
