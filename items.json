@@ -1,0 +1,20 @@
+{
+    "item_1": {
+        "id": 1,
+        "discription": "this is item_1",
+        "price": 1000, 
+        "count_max": 5
+    },
+    "item_2": {
+        "id": 2,
+        "discription": "this is item_2",
+        "price": 3000, 
+        "count_max": 7
+    },
+    "item_3": {
+        "id": 3,
+        "discription": "this is item_3",
+        "price": 2500, 
+        "count_max": 10
+    }
+}
