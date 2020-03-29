@@ -11,6 +11,8 @@
     <div id="item_list">
         
     </div>
+    <button class="ajax">To json</button>
+    <br>
     <a href="index.php">Items</a>
     <script src="js/cart.js"></script>
 </body>
